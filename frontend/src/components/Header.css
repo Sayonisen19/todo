@@ -1,0 +1,54 @@
+/* Navbar background and text color */
+.navbar {
+    background-color: #343a40; /* Dark background */
+    padding: 10px;
+    justify-content: space-around;
+  }
+  
+  .navbar-brand {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ffffff; /* White text */
+  }
+  
+  .navbar-toggler {
+    border-color: rgba(255, 255, 255, 0.5);
+  }
+  
+  .navbar-toggler-icon {
+    color: #ffffff; /* White toggler icon */
+  }
+  
+  /* Navbar collapse link styling */
+  .nav-link {
+    color: #ffffff;
+    margin-right: 15px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+  }
+  
+  .nav-link:hover {
+    color: #007bff; /* Primary blue on hover */
+    text-decoration: none;
+  }
+  
+  .signup {
+    background-color: #007bff; /* Primary blue background */
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+  }
+  
+  .signup:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+    text-decoration: none;
+  }
+  
+  /* Navbar collapse animation */
+  .navbar-collapse {
+    transition: all 0.3s ease-in-out;
+  }
+  
